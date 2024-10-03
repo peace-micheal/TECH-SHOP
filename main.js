@@ -52,17 +52,17 @@ image.classList.add('zoom-in');
 
 
 
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('active');
-    }
-  });
-}, { threshold: 1.0 });
+// const observer = new IntersectionObserver((entries) => {
+//   entries.forEach((entry) => {
+//     if (entry.isIntersecting) {
+//       entry.target.classList.add('active');
+//     }
+//   });
+// }, { threshold: 1.0 });
 
-fadeElements.forEach((element) => {
-  observer.observe(element);
-});
+// fadeElements.forEach((element) => {
+//   observer.observe(element);
+// });
 
 
 
